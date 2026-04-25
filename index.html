@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container" id="gameContainer">
+        <div class="score" id="score">0</div>
+        <div class="bird" id="bird"></div>
+        <div class="ground"></div>
+        <div class="game-over" id="gameOver">
+            <div>Game Over!</div>
+            <div class="final-score">Final Score: <span id="finalScore">0</span></div>
+            <button class="restart-btn" onclick="restartGame()">Play Again</button>
+        </div>
+        <div class="instructions">Click or Press SPACE to flap!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
